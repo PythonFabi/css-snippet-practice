@@ -34,7 +34,9 @@ h1 {
     color: var(--neon-pink);
     border: 1px dashed var(--cream-white);
     z-index: 0;
-    flex: ;
+    flex: 1 0 400px;
+    margin: 1rem;
+    
 }
 
 .card-heading {
