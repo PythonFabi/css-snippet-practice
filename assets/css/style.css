@@ -6,6 +6,10 @@
     --neon-pink:#e957fc;
 }
 
+h2 {
+    font-size: 1.5rem;
+}
+
 body {
     background-color: var(--space);
 }
@@ -41,6 +45,7 @@ h1 {
 
 .card-heading {
     border: 1px solid var(--cream-white);
+    padding: 0.25rem;
     border-radius: 5px;
     z-index: 1;
     margin: -0.5em 2em 2em 1em;
