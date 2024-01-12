@@ -36,10 +36,10 @@ h1 {
 
 .css-snippet-card {
     color: var(--neon-pink);
-    outline: 1px dashed var(--cream-white);
+    outline: 2px dashed var(--cream-white);
     outline-offset: -2px;
     z-index: 0;
-    flex: 1 0 400px;
+    flex: 1 0 1rem;
     margin: 1rem;
 }
 
