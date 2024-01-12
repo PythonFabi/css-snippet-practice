@@ -23,3 +23,24 @@ h1 {
 .subtitle {
     color: var(--cream-white);
 }
+
+.snippets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.css-snippet-card {
+    color: var(--neon-pink);
+    border: 1px dashed var(--cream-white);
+    z-index: 0;
+    flex: ;
+}
+
+.card-heading {
+    border: 1px solid var(--cream-white);
+    border-radius: 3px;
+    z-index: 1;
+    position: relative;
+    bottom: 0.5rem;
+}
