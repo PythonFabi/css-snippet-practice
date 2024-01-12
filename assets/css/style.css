@@ -1,0 +1,25 @@
+/* define root variables */
+:root {
+    --space: #33393f;
+    --bright-turquoise:#03e8d8;
+    --cream-white: #ffffffda;
+    --neon-pink:#e957fc;
+}
+
+body {
+    background-color: var(--space);
+}
+
+header {
+    text-align: center;
+    margin: 2rem;
+}
+
+h1 {
+    color: var(--neon-pink);
+    margin: 1rem;
+}
+
+.subtitle {
+    color: var(--cream-white);
+}
