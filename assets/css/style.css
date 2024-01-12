@@ -32,17 +32,31 @@ h1 {
 
 .css-snippet-card {
     color: var(--neon-pink);
-    border: 1px dashed var(--cream-white);
+    outline: 1px dashed var(--cream-white);
+    outline-offset: -2px;
     z-index: 0;
     flex: 1 0 400px;
     margin: 1rem;
-    
 }
 
 .card-heading {
     border: 1px solid var(--cream-white);
-    border-radius: 3px;
+    border-radius: 5px;
     z-index: 1;
+    margin: -0.5em 2em 2em 1em;
     position: relative;
-    bottom: 0.5rem;
+    background-color: var(--space);
+}
+
+.card-description {
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.code-snippet {
+    color: var(--cream-white);
+    background-image: linear-gradient(rgba(182, 48, 235, 0.611)0%, rgba(212, 95, 218, 0.891)100%);
+    padding: 1rem 0 1rem 0;
+    margin: 1rem;
+    border-radius: 5px;
 }
