@@ -6,8 +6,17 @@
     --neon-pink:#e957fc;
 }
 
+h1 {
+    color: var(--neon-pink);
+    margin: 1rem;
+}
+
 h2 {
     font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
 }
 
 body {
@@ -19,10 +28,7 @@ header {
     margin: 2rem;
 }
 
-h1 {
-    color: var(--neon-pink);
-    margin: 1rem;
-}
+
 
 .subtitle {
     color: var(--cream-white);
@@ -39,7 +45,7 @@ h1 {
     outline: 2px dashed var(--cream-white);
     outline-offset: -2px;
     z-index: 0;
-    flex: 1 0 1rem;
+    flex: 1 0 6rem;
     margin: 1rem;
 }
 
@@ -64,4 +70,9 @@ h1 {
     padding: 1rem 0 1rem 0;
     margin: 1rem;
     border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    color: var(--neon-pink);
 }
