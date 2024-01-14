@@ -6,6 +6,10 @@
     --neon-pink:#e957fc;
 }
 
+::selection {
+    background-color: var(--bright-turquoise);
+}
+
 h1 {
     color: var(--neon-pink);
     margin: 1rem;
@@ -36,6 +40,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    transition: flex-basis 500ms linear;
 }
 
 .css-snippet-card {
@@ -48,7 +53,7 @@ header {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    transition: all 0.5 ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .card-heading {
@@ -59,6 +64,7 @@ header {
     margin: -0.5em 2em 2em 1em;
     position: relative;
     background-color: var(--space);
+    transition: all 0.5s ease-in-out;
 }
 
 .card-description {
@@ -91,4 +97,22 @@ footer {
     margin: 1rem;
 }
 
-.card 
+.css-snippet-card:hover,
+.css-snippet-card:hover .card-heading {
+    box-shadow: inset 0px 0px 8px var(--neon-pink), 0 0 15px var(--neon-pink);
+} 
+
+@media screen and (min-width: 768px) {
+    .snippets {
+        flex: 0 0 50%;
+        max-width: 100%;
+    }   
+}
+
+
+@media screen and (min-width: 992px) {
+    .snippets {
+        flex: 0 0 33.333%;
+        max-width: 100%;
+    }
+}
