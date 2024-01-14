@@ -28,8 +28,6 @@ header {
     margin: 2rem;
 }
 
-
-
 .subtitle {
     color: var(--cream-white);
 }
@@ -45,8 +43,12 @@ header {
     outline: 2px dashed var(--cream-white);
     outline-offset: -2px;
     z-index: 0;
-    flex: 1 0 6rem;
+    flex: 1 0 30%;
     margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    transition: all 0.5 ease-in-out;
 }
 
 .card-heading {
@@ -65,14 +67,28 @@ header {
 }
 
 .code-snippet {
+    white-space: pre-wrap;
+    overflow: auto;
     color: var(--cream-white);
     background-image: linear-gradient(rgba(182, 48, 235, 0.611)0%, rgba(212, 95, 218, 0.891)100%);
     padding: 1rem 0 1rem 0;
     margin: 1rem;
     border-radius: 5px;
+    tab-size: 4;
+    padding: 1.2rem 1.25rem;
+    display: flex;
+    align-items: center;
 }
+
+.code-snippet:active {
+    user-select: all;
+}
+
 
 footer {
     text-align: center;
     color: var(--neon-pink);
+    margin: 1rem;
 }
+
+.card 
